@@ -1,0 +1,21 @@
+.welcome {
+  margin: 20px 0px;
+
+  .title {
+    font-size: 36px;
+    font-weight: $bold;
+    line-height: 46px;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 576px) {
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .favorites {
+      color: $red;
+    }
+  }
+}
